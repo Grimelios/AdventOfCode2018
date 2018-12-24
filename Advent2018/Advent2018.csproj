@@ -45,6 +45,9 @@
     <Compile Include="Puzzle3.cs" />
     <Compile Include="Puzzle4.cs" />
     <Compile Include="Puzzle5.cs" />
+    <Compile Include="Puzzle6.cs" />
+    <Compile Include="Puzzle7.cs" />
+    <Compile Include="Puzzle8.cs" />
     <Compile Include="PuzzleSolver.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +68,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Input\Input5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input\Input6.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input\Input7.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input\Input8.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

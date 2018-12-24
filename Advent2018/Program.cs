@@ -15,7 +15,10 @@ namespace Advent2018
 			new Puzzle2(),
 			new Puzzle3(),
 			new Puzzle4(),
-			new Puzzle5()
+			new Puzzle5(),
+			new Puzzle6(),
+			new Puzzle7(),
+			new Puzzle8()
 		};
 
 		public static void Main(string[] args)

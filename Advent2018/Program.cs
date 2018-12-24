@@ -11,14 +11,17 @@ namespace Advent2018
 	{
 		private static PuzzleSolver[] solvers =
 		{
-			new Puzzle1(),
-			new Puzzle2(),
-			new Puzzle3(),
-			new Puzzle4(),
-			new Puzzle5(),
-			new Puzzle6(),
-			new Puzzle7(),
-			new Puzzle8()
+			new Puzzle01(),
+			new Puzzle02(),
+			new Puzzle03(),
+			new Puzzle04(),
+			new Puzzle05(),
+			new Puzzle06(),
+			new Puzzle07(),
+			new Puzzle08(),
+			new Puzzle09(),
+			new Puzzle10(),
+			new Puzzle11()
 		};
 
 		public static void Main(string[] args)
@@ -67,10 +70,17 @@ namespace Advent2018
 
 					continue;
 				}
-
+				
 				if (puzzle > solvers.Length || solvers[puzzle - 1] == null)
 				{
 					Console.WriteLine("Solver not found\n");
+
+					continue;
+				}
+
+				if (!solvers[puzzle - 1].InputFound)
+				{
+					Console.WriteLine("Input file not found\n");
 
 					continue;
 				}

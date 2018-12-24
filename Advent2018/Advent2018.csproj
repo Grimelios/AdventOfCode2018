@@ -40,14 +40,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Puzzle1.cs" />
-    <Compile Include="Puzzle2.cs" />
-    <Compile Include="Puzzle3.cs" />
-    <Compile Include="Puzzle4.cs" />
-    <Compile Include="Puzzle5.cs" />
-    <Compile Include="Puzzle6.cs" />
-    <Compile Include="Puzzle7.cs" />
-    <Compile Include="Puzzle8.cs" />
+    <Compile Include="Puzzle01.cs" />
+    <Compile Include="Puzzle10.cs" />
+    <Compile Include="Puzzle02.cs" />
+    <Compile Include="Puzzle03.cs" />
+    <Compile Include="Puzzle04.cs" />
+    <Compile Include="Puzzle05.cs" />
+    <Compile Include="Puzzle06.cs" />
+    <Compile Include="Puzzle07.cs" />
+    <Compile Include="Puzzle08.cs" />
+    <Compile Include="Puzzle09.cs" />
+    <Compile Include="Puzzle11.cs" />
     <Compile Include="PuzzleSolver.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,28 +58,34 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Input\Input1.txt">
+    <Content Include="Input\Input01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input2.txt">
+    <Content Include="Input\Input10.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input3.txt">
+    <Content Include="Input\Input02.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input4.txt">
+    <Content Include="Input\Input03.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input5.txt">
+    <Content Include="Input\Input04.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input6.txt">
+    <Content Include="Input\Input05.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input7.txt">
+    <Content Include="Input\Input06.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\Input8.txt">
+    <Content Include="Input\Input07.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input\Input08.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input\Input09.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

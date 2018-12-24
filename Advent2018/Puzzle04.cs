@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Advent2018
 {
-	public class Puzzle4 : PuzzleSolver
+	public class Puzzle04 : PuzzleSolver
 	{
-		public Puzzle4() : base(4)
+		public Puzzle04() : base(4)
 		{
 		}
 
